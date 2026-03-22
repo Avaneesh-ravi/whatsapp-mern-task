@@ -1,5 +1,8 @@
 # WhatsApp Clone - Full Stack Project
 
+**Live App:** [https://whatsapp-mern-task.vercel.app/login](https://whatsapp-mern-task.vercel.app/login)
+**Demo Video:** [https://drive.google.com/drive/folders/1Tn_fA-BeyyK_vp2sWei4FeCFIuXSqqwl?usp=sharing](https://drive.google.com/drive/folders/1Tn_fA-BeyyK_vp2sWei4FeCFIuXSqqwl?usp=sharing)
+
 A full-stack WhatsApp Web clone focused on real-time chat functionality, group communication, and dynamic status updates. Built with React.js frontend, Node.js + Express backend, MongoDB database, and Socket.IO for seamless real-time WebSocket capabilities.
 
 ## Technical Stack & Features
