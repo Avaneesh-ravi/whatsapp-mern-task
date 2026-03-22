@@ -37,6 +37,34 @@ PORT=5000
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
+
+## Folder Structure
+
+```text
+whatsapp-clone/
+│
+├── backend/                  
+│   ├── node_modules/          
+│   ├── .env                  
+│   ├── package.json          
+│   ├── package-lock.json     
+│   └── server.js             
+│
+├── frontend/                 
+│   ├── node_modules/         
+│   ├── public/               
+│   │   └── index.html        
+│   ├── src/                  
+│   │   ├── components/       
+│   │   │   └── AuthScreen.js 
+│   │   ├── App.css           
+│   │   ├── App.js            
+│   │   └── index.js          
+│   ├── package.json          
+│   └── package-lock.json     
+│
+└── README.md  
+
 ### Starting the Database 
 The application leverages MongoDB natively. You can either use a locally hosted MongoDB instance and swap `MONGO_URI` to `mongodb://localhost:27017/whatsapp-clone` or configure a free MongoDB Atlas instance. Setup your cluster on Atlas, add `0.0.0.0/0` to Network Access, and inject your URI. 
 
